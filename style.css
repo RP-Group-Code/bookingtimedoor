@@ -1,0 +1,177 @@
+main {
+  min-height: 150vh;
+}
+a:hover {
+  color: black;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(41, 159, 120);
+}
+
+h1 {
+  color: green;
+  text-align: left;
+}
+/* header */
+header {
+  background-color: #ffffff;
+  color: black;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  padding-top: 10px;
+  padding-right: 6rem;
+  padding-left: 6rem;
+  display: flex;
+}
+.header-title {
+  text-align: left;
+  color: black;
+  margin: 14px;
+  font-size: 18px;
+}
+nav {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+  float: left;
+  padding: 15px;
+}
+
+/* header */
+
+/* jumbotron */
+.jumbotron {
+  height: 30vh;
+  background-color: #2ec1ac;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jumbotron img {
+  width: 300px;
+  margin: 30px;
+}
+.jumbotron h3,
+p {
+  color: white;
+}
+/* jumbotron */
+
+/* main container */
+.main-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.package-container {
+  margin: 20px;
+  padding: 16px;
+  border: 3px solid black;
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px gray;
+}
+.package-container p {
+  color: black;
+}
+.package-container img {
+  width: 300px;
+}
+/* main container */
+
+/* data table */
+.table-data {
+  margin-top: 10rem;
+}
+button {
+  background-color: #5fc8f5;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.left {
+  width: 70px;
+  margin-left: 2%;
+}
+
+table,
+th,
+td,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+th {
+  background-color: darkseagreen;
+  color: white;
+}
+.table,
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.table img {
+  width: 150px;
+}
+/* data table */
+
+/* booking halaman */
+.formcontainer {
+  margin-top: 100px;
+  text-align: center;
+}
+.formcontainer img {
+  width: 300px;
+}
+
+form {
+  text-align: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 3px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+select {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 3px;
+}
+/* booking halaman */
+
+/* footerr */
+footer {
+  color: white;
+  text-align: left;
+  background-color: #2ec1ac;
+  padding: 10px;
+  margin-top: 50px;
+}
+/* footerr */
