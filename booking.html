@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pemesanan Rental</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -29,22 +29,28 @@
             <input id="fullnames" type="text">
             <label>Email</label>
             <input type="email">
+
             <label>Phone Number</label>
             <input type="number">
+
             <label>Pick a Date</label>
             <input type="date">
-            <label>How many person?</label>
+            
+            <label>How many person? ( isi dengan ankga )</label>
             <input id="num-of-people" type="number">
+
             <label>Tour Package</label>
             <select name="package" id="package">
                 <option value="3500">Sakura Tours | $3500</option>
-                <option value="2500">Anime World Tour | $2500</option>
+                <option value="1000">Anime World Tour | $1000</option>
                 <option value="9000">Discover Japan | $9000</option>
                 <option value="4000">Japanese Ancestry Tours | $4000</option>
-                <option value="9500">Hidden Trails |$9500</option>
+                <option value="9500">Hidden Trails |$9500</option> 
             </select>
-            <h3>Total Payment : $ <span id="total"> </span></h3>
-            <button onclick="process()" type="button">Process Booking</button>
+
+            
+            <h3>Total Payment : $ <span id="total"></span> </h3>
+            <button onclick="process()" type="button"> Proses Pesanan</button>
         </form>
     </main>
 
